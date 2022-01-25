@@ -1,9 +1,18 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useState } from 'react'
+import Clothes from 'components/Clothes.js'
+import './App.css'
 
 function App() {
-  return <div className="App"></div>;
+    return (
+        <div className="container">
+            <div className="navBar">개발 blog</div>
+            <Clothes></Clothes>
+            <Clothes></Clothes>
+            <Clothes></Clothes>
+            <Clothes></Clothes>
+            <Clothes></Clothes>
+        </div>
+    )
 }
 
-export default App;
+export default App
