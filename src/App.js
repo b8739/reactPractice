@@ -7,10 +7,6 @@ function App() {
         <div className="container">
             <div className="navBar">개발 blog</div>
             <Clothes></Clothes>
-            <Clothes></Clothes>
-            <Clothes></Clothes>
-            <Clothes></Clothes>
-            <Clothes></Clothes>
         </div>
     )
 }
